@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "heart";
+  src: url(./Fonts/Heart.otf);
+}
+
+* {
+  font-family: "heart";
+  background-color: rgb(224, 127, 143);
+  color: #ffffff;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+}
+
+.nopuce {
+  list-style-type: none;
+}
+
+label {
+  margin: 10px;
+}
+
+input {
+  width: 3rem;
+}
+
+.large-checkbox {
+  margin: 1rem;
+  transform: scale(2); /* Agrandir la checkbox en ajustant l'échelle */
+}
