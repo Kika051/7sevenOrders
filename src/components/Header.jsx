@@ -1,7 +1,7 @@
 function header() {
   return (
     <div className="header">
-      <h1>Bloc de commande</h1>
+      <span>Bloc de commande</span>
     </div>
   );
 }
